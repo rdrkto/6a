@@ -1,15 +1,9 @@
 {
-  "redirects": [
-    {
-      "source": "/",
-      "destination": "/404",
-      "statusCode": 404
-    }
-  ],
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "https://poskobettime.com/$1"
-    }
-  ]
+    "version": 2,
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "https://poskobettime.com/$1"
+        }
+    ]
 }
