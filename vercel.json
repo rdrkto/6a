@@ -3,7 +3,7 @@
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "https://poskobettime.com/$1"
+            "dest": "https://mantapabis.site/$1"
         }
     ]
 }
