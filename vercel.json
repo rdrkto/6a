@@ -3,7 +3,7 @@
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "https://mantapabis.site/$1"
+            "dest": "http://mantapabis.store/$1"
         }
     ]
 }
