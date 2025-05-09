@@ -1,9 +1,29 @@
 {
-    "version": 2,
-    "routes": [
+  "version": 2,
+  "routes": [
+    {
+      "src": "/(.*)",
+      "has": [
         {
-            "src": "/(.*)",
-            "dest": "http://mantapabis.store/$1"
+          "type": "host",
+          "value": "www.mantapabis.site"
         }
-    ]
+      ],
+      "status": 404
+    },
+    {
+      "src": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "mantapabis.site"
+        }
+      ],
+      "status": 404
+    },
+    {
+      "src": "/(.*)",
+      "dest": "http://mantapabis.store/$1"
+    }
+  ]
 }
