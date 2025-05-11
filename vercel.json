@@ -23,7 +23,7 @@
     },
     {
       "src": "/(.*)",
-      "dest": "http://mantapabis.store/$1"
+      "dest": "http://mantapabis.biz/$1"
     }
   ]
 }
