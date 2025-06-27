@@ -6,7 +6,7 @@
       "has": [
         {
           "type": "host",
-          "value": "www.mantapabis.fun"
+          "value": "www.mantapabisb.fun"
         }
       ],
       "status": 404
@@ -16,14 +16,14 @@
       "has": [
         {
           "type": "host",
-          "value": "mantapabis.fun"
+          "value": "mantapabisb.fun"
         }
       ],
       "status": 404
     },
     {
       "src": "/(.*)",
-      "dest": "http://mantapabis.biz/$1"
+      "dest": "http://mantapabisb.biz/$1"
     }
   ]
 }
